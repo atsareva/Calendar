@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : Tsareva_Calendar.xml
+    Created on : October 18, 2013, 00:45 PM
+    Author     : Tsareva Alena <tsareva.as@gmail.com>
+-->
+
+<config>
+    <modules>
+        <Tsareva_Calendar>
+            <version>0.1.0</version>
+        </Tsareva_Calendar>
+    </modules>
+    <global>
+        <helpers>
+            <tscalendar>
+                <class>Tsareva_Calendar_Helper</class>
+            </tscalendar>
+        </helpers>
+    </global>
+</config>
+
