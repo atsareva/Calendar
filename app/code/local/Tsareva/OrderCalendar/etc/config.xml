@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Document   : Tsareva_Calendar.xml
+    Document   : Tsareva_OrderCalendar.xml
     Created on : October 18, 2013, 00:45 PM
     Author     : Tsareva Alena <tsareva.as@gmail.com>
 -->
 
 <config>
     <modules>
-        <Tsareva_Calendar>
+        <Tsareva_OrderCalendar>
             <version>0.1.0</version>
-        </Tsareva_Calendar>
+        </Tsareva_OrderCalendar>
     </modules>
     <global>
         <helpers>
-            <tscalendar>
-                <class>Tsareva_Calendar_Helper</class>
-            </tscalendar>
+            <ordercalendar>
+                <class>Tsareva_OrderCalendar_Helper</class>
+            </ordercalendar>
         </helpers>
     </global>
 </config>
