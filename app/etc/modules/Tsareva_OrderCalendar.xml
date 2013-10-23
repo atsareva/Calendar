@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Document   : Tsareva_Calendar.xml
+    Document   : Tsareva_OrderCalendar.xml
     Created on : October 18, 2013, 00:42 PM
     Author     : Tsareva Alena <tsareva.as@gmail.com>
 -->
 
 <config>
     <modules>
-        <Tsareva_Calendar>
+        <Tsareva_OrderCalendar>
             <active>true</active>
             <codePool>local</codePool>
-        </Tsareva_Calendar>
+        </Tsareva_OrderCalendar>
     </modules>
 </config>

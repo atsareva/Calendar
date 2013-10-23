@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!--
+    Document   : Tsareva_OrderCalendar.xml
+    Created on : October 23, 2013, 02:31 PM
+    Author     : Tsareva Alena <tsareva.as@gmail.com>
+-->
+
+<config>
+    <tabs>
+        <tsareva translate="label">
+            <label>Tsareva</label>
+            <sort_order>201</sort_order>
+        </tsareva>
+    </tabs>
+    <sections>
+        <ordercalendar translate="label comment" module="ordercalendar">
+            <tab>tsareva</tab>
+            <label>Order Calendar</label>
+            <frontend_type>text</frontend_type>
+            <sort_order>99</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label comment" module="ordercalendar">
+                    <label>Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <css_class translate="label">
+                            <label>Css class for linked day.</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </css_class>
+                        <day_name translate="label">
+                            <label>Length of the day name</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>ordercalendar/days</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </day_name>
+                        <cellsize translate="label">
+                            <label>Calendar cell size</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <validate>validate-number</validate>
+                        </cellsize>
+                        <number_prev_months translate="label">
+                            <label>Number of the prev month(s)</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <validate>validate-number</validate>
+                        </number_prev_months>
+                        <number_next_months translate="label">
+                            <label>Number of the next month(s)</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <validate>validate-number</validate>
+                        </number_next_months>
+                    </fields>
+                </general>
+            </groups>
+        </ordercalendar>
+    </sections>
+</config>

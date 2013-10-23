@@ -12,11 +12,37 @@
         </Tsareva_OrderCalendar>
     </modules>
     <global>
+        <models>
+            <ordercalendar>
+                <class>Tsareva_OrderCalendar_Model</class>
+            </ordercalendar>
+        </models>
         <helpers>
             <ordercalendar>
                 <class>Tsareva_OrderCalendar_Helper</class>
             </ordercalendar>
         </helpers>
     </global>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <ordercalendar>
+                                            <title>Order Calendar</title>
+                                        </ordercalendar>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
 </config>
 
